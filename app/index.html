@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SL Lemezkereskedés – Árajánlat készítő</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Fejléc -->
+  <header class="topbar no-print">
+    <div class="topbar-inner">
+      <div class="brand" onclick="SLApp.goMenu()">
+        <img class="brand-logo" src="assets/SL-logo.png" alt="SL Lemezkereskedés" />
+        <span class="brand-text">SL Lemezkereskedés<small>Árajánlat készítő</small></span>
+      </div>
+      <nav class="topbar-actions" id="topbar-actions"></nav>
+    </div>
+  </header>
+
+  <!-- 1) Onboarding főmenü -->
+  <main id="view-menu" class="view"></main>
+
+  <!-- 2) Ajánlat-szerkesztő -->
+  <main id="view-editor" class="view" hidden></main>
+
+  <!-- 3) Nyomtatható ajánlat -->
+  <main id="view-print" class="view print-area" hidden></main>
+
+  <script src="data/prices.js"></script>
+  <script src="js/datamodel.js"></script>
+  <script src="js/catalog.js"></script>
+  <script src="js/pricing.js"></script>
+  <script src="js/print.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

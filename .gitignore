@@ -1,0 +1,13 @@
+# LibreOffice / Office lock & temp fájlok
+.~lock.*#
+~$*
+
+# Árlista biztonsági mentések
+arak_strukturalt_backup_*.csv
+
+# Nem ehhez a projekthez tartozó plugin
+vikingo-marketing-plugin-v1.0.0/
+
+# OS
+Thumbs.db
+.DS_Store
